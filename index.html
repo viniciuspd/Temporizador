@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Temporizador</title>
+</head>
+<body>
+    <div class="corpo">
+        <h1>Temporizador</h1>
+        <span>Horas</span>
+        <form>
+        <input type="text" class="hora" value="" placeholder="De 0-99">
+        <span>Minutos</span>
+        <input type="text" class="minuto" value="" placeholder="De 0-59">
+        <span>Segundos</span>
+        <input type="text" class="segundo" value="" placeholder="De 0-59">
+        <div class="botoes">
+            <button class="start" type="button">Começar</button>
+            <button class="reset" type="reset">Resetar</button>
+        </div>
+        </form>
+        <div class="temporizador">
+            <div class="area-hora">00</div><span>:</span>
+            <div class="area-minuto">00</div><span>:</span>
+            <div class="area-segundo">00</div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
